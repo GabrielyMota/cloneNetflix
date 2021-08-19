@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <title>NETFLIX CLONE</title>
 </head>
 <body>
     <!-- header navbar -->
     <header>
         <div class="container">
-            <h2 class="logo">Netflix</h2>
+            <h2 class="logo">ANIMAFLIX</h2>
             <nav>
                 <a href="">Início</a>
-                <a href="">Séries</a>
-                <a href="">Filmes</a>
-                <a href="">Documentários</a>
+                <a href="">Aventura</a>
+                <a href="">RPG</a>
+                <a href=""></a>
             </nav>
         </div>
     </header>
@@ -24,22 +31,64 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">House of Cards</h3>
-                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro. Assista agora a temporada de House of Cards que está imperdível.</p>
+                <h3 class="titulo">A Plague Tale: Innocence</h3>
+                <p class="descricao">Follow the grim tale of young Amicia and her little brother Hugo, in a heartrending journey through the darkest hours of history.</p>
+            
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-gamepad"></i>
+                        JOGAR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>    
+        </div>
+    </main>  
+    
+    <div class="carrosel-filme">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini1.jpg" alt="">
             </div>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini8.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini9.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/cloneNetflix/img/mini10.jpg" alt="">
             </div>
         </div>
+    </div>
 
-        <script src="https://kit.fontawesome.com/fceb3cbda7.js" crossorigin="anonymous"></script>
-    </main>
+
+    <script src="https://kit.fontawesome.com/fceb3cbda7.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
+
 </body>
 </html>
