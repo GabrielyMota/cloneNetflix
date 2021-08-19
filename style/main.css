@@ -96,11 +96,16 @@ header nav a:hover{
 }
 
 .box-filme{
-    height: 1000%;
+    height: 100%;
     width: 100%;
     display: block;
 }
 
 .carrosel-filme{
     margin-top: 5px;
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px;
 }
